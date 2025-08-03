@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+h1 {
+  color: #007bff;
+  border: solid 2px #007bff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #eaf4ff;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Message List */
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+li {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Links and Buttons */
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.openbtn {
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.openbtn:hover {
+  background-color: #0056b3;
+}
+
+/* Form Styling */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Message Detail Page */
+.message-details {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.message-details p {
+  margin-bottom: 10px;
+}
